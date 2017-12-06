@@ -53,8 +53,8 @@
                                 var confirm_event_place = confirm ('Are you ready visit' +' a ' + event + ' in ' + place + ' at ' + time +  '?');
 
                                 if (confirm_event_place){
-                                    alert(person_name + ' '+ ' will have a ' + event + " " +  time + ' ' + ' in ' + ' ' + place);
-                                    console.log(person_name + ' '+ ' will have a ' + event + " " +  time + ' ' + ' in ' + ' ' + place);
+                                    alert(person_name + ' '+ ' will have a ' + event + " at " +  time + ' ' + ' in ' + ' ' + place);
+                                    console.log(person_name + ' '+ ' will have a ' + event + " at " +  time + ' ' + ' in ' + ' ' + place);
                                 }
 
                                         else {
@@ -67,8 +67,8 @@
                                                 }
 
                                                         else {
-                                                            alert(person_name + ' ' + ' will have a ' + event + " " + time + ' ' + ' in ' + ' ' + place);
-                                                            console.log(person_name + ' ' + ' will have a ' + event + " " + time + ' ' + ' in ' + ' ' + place);
+                                                            alert(person_name + ' ' + ' will have a ' + event + " at " + time + ' ' + ' in ' + ' ' + place);
+                                                            console.log(person_name + ' ' + ' will have a ' + event + "at " + time + ' ' + ' in ' + ' ' + place);
 
                                                         }
                                                     }
