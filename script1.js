@@ -80,7 +80,7 @@
                                         alert("Currency converter! Must input only the  numbers");
                                         var USD = prompt ('Please enter the appropriate dollar amount',100);}
 
-                                    while(isNaN(USD)||USD === null || USD==='');
+                                    while(isNaN(USD)||USD === null || USD==='' || USD<0);
                                 }
 
 
@@ -88,7 +88,7 @@
                                                 do { alert("Currency converter! Must input only the  numbers");
                                                     var EUR = prompt('Please enter the appropriate euro amount', 50);}
 
-                                                while (isNaN(EUR)||EUR === null ||EUR==='');
+                                                while (isNaN(EUR)||EUR === null ||EUR==='' || EUR<0);
                                             }
 
                                                 var OneDollar = 27.2;
